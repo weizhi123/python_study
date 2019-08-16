@@ -13,3 +13,14 @@ Terminal中输入：python hello.py
 （4：将代码提交到本地仓库中 git commit -m “修改项目代码”
     git commit -m用于提交暂存区的文件，git commit -am用于提交跟踪过的文件
 （5：将缓存区代码推送到Git服务器 git push
+4、原来的F:\python_sapce\python_study\.git\config内容：
+[core]
+ repositoryformatversion = 0
+ filemode = false
+ bare = false
+ logallrefupdates = true
+ symlinks = false
+ ignorecase = true
+[remote "origin"]
+ url = https://github.com/weizhi123/python_study.git
+ fetch = +refs/heads/*:refs/remotes/origin/*
